@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+.box-style {
+    width:300px;
+    height:300px;
+    margin: 20px;
+}
+.box-black {
+    background-color: black;
+    
+}
+.box-purple{
+    background-color: purple;
+    
+}
+.box-red{
+    background-color:red;
+    
+}
+.box-10-5-77 {
+    background-color: rgb(10, 5, 77);
+    
+}
+.box-202-101-17{
+    background-color:rgb(202, 101, 17);
+    
+}
+.box-183-8-255{
+    background-color:rgb(170, 8, 235);
+   
+}
+.box-1E90FF {
+    background-color:#1E90FF;
+    
+}
+.box-00BFFF{
+    background-color:#00BFFF;
+    
+}
+.box-00CED1{
+    background-color:#00CED1;
+   
+}

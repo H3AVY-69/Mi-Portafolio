@@ -1,108 +1,88 @@
-* {
-<<<<<<< HEAD
+* { margin: 0;
     padding: 0;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(242,242,242);
 }
-.main-box {
-    display: flex;
-    align-items:flex-start;
-    margin-top: 200px;
-    justify-content: center;
-    flex-direction: row;
-    /*vh: view height */
+.main-box{
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+    /*vh: view height */
+    /* height: 1vh; */
+}
+.star-style {
+    color:gold;
+    background-color: transparent;
 }
 .box-style {
-    width:  350px;
-    margin: 0 40px;
+    width:  600px;
+    height: 528px;
     background-color: rgb(255, 255, 255);
-    height: 460px;
-    display: flex;
-    align-items: flex-end;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+.product-box {
+    width: 300px;
+    height: 528px;
+    margin: 0 auto;
+    background-color: white;
 }
 /* Caja de color */
 .add-cart-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 20px;
+    text-align: center; 
+    padding-top: 25px;
     width: 100%;
-    height: 15%;
-    background-color: rgb(16, 30, 150);
+    height: 60px;
+    background-color:rgb(192, 99, 37) ;
 }
 .add-cart-1-span {
     background-color: transparent;
     color: white;
-=======
-    margin: 0;
-    padding: 0;
-    background-color: rgb(20, 20, 20);
-}
- .main-box {
-    height: 100vh;
-    
-}
-.box-style {
-    width:  330px;
-    margin: 700px;
-    background-color: rgb(255, 255, 255);
-    margin:0 auto;
-    margin-top:0 auto ;
-}
-.product-box{
-    width: 280px;
-    height: 800px;
-    background-color: rgb(255, 255, 255);
-    margin-top: 50px;
-    margin-left:50px;
-}
-img {
-    margin-top:200px;
-}
-/* Caja de color */
-.add-cart-1 {
-    margin-top: auto;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 20%;
-    background-color: rgb(214, 137, 22);
-}
-.add-cart-1-span {
-    background-color: transparent;
-    color: black;
->>>>>>> 2a47c8063dbe62d5c897186a222a455daffcb34b
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.0em;
-
 }
-<<<<<<< HEAD
-=======
-
 .product-text {
-    text-align: center;
-background-color: white;
+    text-align:center;
+    background-color: white;
 }
 .product-text-span {
     background-color: white;
     font-size: 1.3em;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: tomato;
+    color:rgba(52,44,44,.9);
 }
-.text-description {
+.text-descripcion {
     background-color: white;
-    color:rgb(20, 20, 20);
-    font-size: .8em;
+    color:rgba(51,43,43,.9);
+    font-size: 0.9em;
 }
->>>>>>> 2a47c8063dbe62d5c897186a222a455daffcb34b
-.add-cart-2 {
+.price-text {
+    background-color: white;
+    color: rgba(211, 203, 95, 0.9);
+    font-size: 1.8em;
+    font-weight: 900;
+    display: block;
+
+}
+.main-box {
+    height: 100vh;
+    background-color: #95200b;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%233A6DDD'/%3E%3Cstop offset='1' stop-color='%231B0B95'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%2378BAFF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%2378BAFF' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* .add-cart-2 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 15%;
-    background-color: rgb(40, 110, 7);
+    background-color:rgb(53, 113, 225) ;
 }
 .add-cart-2-span {
     background-color: transparent;
@@ -117,7 +97,7 @@ background-color: white;
     align-items: center;
     width: 100%;
     height: 15%;
-    background-color: rgb(80, 9, 9);
+    background-color:rgb(52, 218, 174) ;
 }
 .add-cart-3-span {
     background-color: transparent;
@@ -125,13 +105,13 @@ background-color: white;
     font-weight: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.0em;
+ */
 
-}
-p{
+/* p{
     font-size: 1.4em;  
     text-align: justify;  
     background-color: white;
 }
 
-
+ */
  

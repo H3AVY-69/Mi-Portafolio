@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/tablas.css">
+    <link rel="stylesheet" href="css/tablas.css"> 
+    <link rel="stylesheet" href="icons/all.css">
     <title>Document</title>
 </head>
 <body>
@@ -13,16 +14,18 @@
           <tr>
            <th>paquete</th>
            <th>canal</th>
-           <th>plan basic</th>
-           <th>plan silver</th>
-           <th>plan gold</th>
-           <th>plan platino</th>
+           <th class="th-basic">plan basic</th>
+           <th class="th-silver">plan silver</th>
+           <th class="th-gold"> plan gold</th>
+           <th class="th-platino">plan platino</th>
           </tr>
             <tr>
-                <th>discovery</th>
+                <th rowspan="2">Discovery</th>
                 <td>discovery chanel</td>
-                <td colspan="4">si</td>     
+                <td colspan="4"> si <i class="fa-solid fa-check" style="color: #12d31f;"></i></td>     
             </tr>
+                <td>discovery home</td>
+                <td colspan="4"> no <i class="fa-solid fa-x" style="color: #da200b;"></i></td> 
        </table>
     </div>
 </body>

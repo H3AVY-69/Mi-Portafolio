@@ -1,4 +1,14 @@
-let menuBar = document.getElementById("menuBar");
+let menuBar= document.getElementById("menuBar")
+let mainNav= document.getElementById("mainNav")
+let mainmenu=document.getElementById("mainMenu")
 
-
-alert("bienvenidos a javas crip");
+menuBar.addEventListener("click",function() { 
+ if (mainMenu.classList.contains("main-menu")){ 
+     mainMenu.classList.add("main-menu-block");
+     mainMenu.classList.remove("main-menu");       
+}
+else {
+    mainMenu.classList.add("main-menu");
+    mainMenu.classList.remove("main-menu-block");
+}
+});

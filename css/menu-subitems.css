@@ -33,7 +33,7 @@ ul li {
 }
 
 li:hover{
-    background-color: rgb(96, 56, 190);
+    background-color: rgb(207, 89, 20);
     cursor: pointer;
 }
 
@@ -51,7 +51,8 @@ nav li li {
 nav li:hover > ul > li {
     overflow: visible;
     max-height: 500px;
-    border: 1px solid rgba(96, 56, 190);
+    border-top: 1px solid rgba(250, 135, 4);
+    border-right: 1px solid rgba(250, 135, 4);
     transition: all 1s;
 }
 nav ul ul ul {

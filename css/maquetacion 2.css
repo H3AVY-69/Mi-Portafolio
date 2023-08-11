@@ -101,3 +101,41 @@ text-align: center;
 position: relative;
 font-size: 0.8em;
 }
+@media only screen and (max-width: 1500px) {
+    .main-menu {
+        height: 100vh;
+        background-color: rgb(64,64,64);
+        list-style: none;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        left:  -95%;
+        transition: left 400ms;
+
+    }
+    .main-menu-block {
+        height: 100vh;
+        background-color: rgb(64,64,64);
+        list-style: none;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        transition: left 400ms;
+    }
+    .item-style {
+        display: block;
+        border-bottom: 1px solid rgb(255,255,255,.2);
+    }
+    .menu-bar {
+        display: inline-block;
+        color: white;
+        text-align: left;
+        padding-top: 40px;
+        margin-left: 30px;
+        font-size: 2em;
+    }
+    .menu-bar:hover {
+        cursor: pointer;
+    }
+}

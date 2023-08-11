@@ -95,16 +95,16 @@ nav{
     list-style: none;
 }
 li{
-display: inline-block;
-width: 200px;
-text-align: center;
-position: relative;
-font-size: 0.8em;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    font-size: 0.8em;
 }
 @media only screen and (max-width: 1500px) {
     .main-menu {
         height: 100vh;
-        background-color: rgb(64,64,64);
+        background-color: rgb(10, 10, 10);
         list-style: none;
         text-align: center;
         position: fixed;
@@ -115,7 +115,7 @@ font-size: 0.8em;
     }
     .main-menu-block {
         height: 100vh;
-        background-color: rgb(64,64,64);
+        background-color: rgb(20, 20, 20);
         list-style: none;
         text-align: center;
         position: fixed;
@@ -125,14 +125,14 @@ font-size: 0.8em;
     }
     .item-style {
         display: block;
-        border-bottom: 1px solid rgb(255,255,255,.2);
+        border-bottom: 1px solid rgba(10, 10, 10, 0.2);
     }
     .menu-bar {
         display: inline-block;
         color: white;
         text-align: left;
-        padding-top: 40px;
-        margin-left: 30px;
+        padding-top: 10px;
+        margin-left: 25px;
         font-size: 2em;
     }
     .menu-bar:hover {

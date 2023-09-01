@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'libre franklin', sans-serif;
+}
+header {
+    display: grid;
+    grid-template: "empty-left main-logo box-main-menu empty-right" 140px /
+                    10px       50px     800px       50px;
+}
+.main-logo {
+    grid-area: main-logo;
+}
+
+.img-logo {
+    padding-top: 20px; 
+    size: 50px;
+}
+.box-main-menu {
+    grid-area: box-main-menu;
+    
+    
+}
+.main-menu {
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  
+}
+.main-menu > li > a {
+    color: rgb(64,64,64,.9);
+    text-decoration: none;
+    display: block;
+    margin: 0 20px;
+    font-size: 1.3em;
+    font-weight: 600;
+    font-family:'libre franklin', sans-serif;
+}
+.sony-bar{
+    bottom: 50px;
+    font-size: 50px;
+    height: 36px;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    color: purple;
+}

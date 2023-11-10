@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakers</title>
+    <link rel="stylesheet" href="css/snakers2.css">
+    <link rel="stylesheet" href="icons/all.css">
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <div class="main-title">
+                <h1>sneakers</h1>
+                <!-- <svg width="138" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M8.217 20c4.761 0 7.519-.753 7.519-4.606 0-3.4-3.38-4.172-6.66-4.682l-.56-.085-.279-.041-.35-.053c-2.7-.405-3.18-.788-3.18-1.471 0-.478.49-1.331 2.843-1.331 2.455 0 3.493.647 3.493 1.87v.134h4.281v-.133c0-2.389-1.35-5.238-7.774-5.238-5.952 0-7.201 2.584-7.201 4.752 0 3.097 2.763 4.086 7.223 4.675.21.028.433.054.659.081 1.669.197 3.172.42 3.172 1.585 0 1.01-1.615 1.222-3.298 1.222-2.797 0-3.784-.593-3.784-1.92v-.134H.002L0 14.926v.317c.008.79.118 1.913 1.057 2.862C2.303 19.362 4.712 20 8.217 20Zm13.21 0v-7.49c0-2.104.547-4.423 4.176-4.423 3.915 0 3.778 2.777 3.768 4.042V20h4.18v-7.768c0-2.264-.176-7.766-6.732-7.766-2.778 0-4.192.911-5.195 2.28h-.197V4.467H17.22V20h4.207Zm21.959 0c5.094 0 7.787-2.07 8.217-5.405H47.53c-.386 1.02-1.63 1.72-4.143 1.72-2.721 0-3.962-1.03-4.25-3.106h12.527c.24-2.13-.029-5.417-3.026-7.44v.005c-1.312-.915-3.056-1.465-5.251-1.465-5.24 0-8.336 2.772-8.336 7.845 0 5.17 3.02 7.846 8.336 7.846Zm4.099-9.574h-8.188c.486-1.574 1.764-2.431 4.089-2.431 2.994 0 3.755 1.267 4.099 2.431ZM70.499 20V4.457H66.29V6.74h-.176c-1.053-1.377-2.809-2.283-5.677-2.283-6.433 0-7.225 5.293-7.253 7.635v.137c0 2.092.732 7.771 7.241 7.771 2.914 0 4.684-.818 5.734-2.169h.131V20H70.5Zm-8.854-3.623c-3.996 0-4.447-3.032-4.447-4.148 0-1.21.426-4.148 4.455-4.148 3.631 0 4.374 2.044 4.374 4.148 0 2.35-.742 4.148-4.382 4.148ZM88.826 20l-6.529-9.045 6.588-6.488h-5.827l-6.836 6.756V0h-4.187v19.954h4.187V16.94l3.02-2.976L83.6 20h5.226Zm9.9 0c5.094 0 7.786-2.07 8.217-5.405h-4.074c-.387 1.02-1.63 1.72-4.143 1.72-2.721 0-3.962-1.03-4.25-3.106h12.527c.24-2.13-.029-5.417-3.026-7.44v.005c-1.312-.915-3.057-1.465-5.251-1.465-5.24 0-8.336 2.772-8.336 7.845 0 5.17 3.02 7.846 8.336 7.846Zm4.098-9.574h-8.187c.485-1.574 1.763-2.431 4.089-2.431 2.994 0 3.755 1.267 4.098 2.431ZM112.76 20v-6.97c0-2.103.931-4.542 4.05-4.542 1.33 0 2.393.236 2.785.346l.67-3.976c-.728-.16-1.626-.392-2.757-.392-2.665 0-3.622.794-4.486 2.282h-.262V4.466h-4.21V20h4.21Zm17.221 0c4.761 0 7.519-.753 7.519-4.606 0-3.4-3.38-4.172-6.66-4.682l-.56-.085-.279-.041-.349-.053c-2.701-.405-3.181-.788-3.181-1.471 0-.478.49-1.331 2.843-1.331 2.455 0 3.493.647 3.493 1.87v.134h4.282v-.133c0-2.389-1.35-5.238-7.775-5.238-5.952 0-7.201 2.584-7.201 4.752 0 3.097 2.763 4.086 7.224 4.675.21.028.432.054.658.081 1.669.197 3.172.42 3.172 1.585 0 1.01-1.615 1.222-3.298 1.222-2.796 0-3.784-.593-3.784-1.92v-.134h-4.319l-.001.301v.317c.008.79.117 1.913 1.056 2.862 1.246 1.257 3.655 1.895 7.16 1.895Z" fill="#1D2026" fill-rule="nonzero"></path></svg> -->
+
+            </div>
+            <nav>
+                <ul class="main-menu">
+                    <li>Collections</li>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+            <div class="carrito-foto">
+                <i class="icon-carrito fa-solid fa-cart-shopping"></i>
+                <div class="box-foto">
+                    <img class="foto" src="img/DSC_0022.JPG" alt="">
+                </div>
+            </div>
+        </header>
+        <hr>
+
+        <div id="boxImgFixed" class="box-img-fixed-hidden">
+            <div class="box-img-selected">
+                <img id="mainImgFixed1" class="main-img-fixed" src="img/image-product-1.jpeg" alt="">
+                <img id="mainImgFixed2" class="main-img-fixed img-hidden" src="img/image-product-2.jpeg" alt="">
+                <img id="mainImgFixed3" class="main-img-fixed img-hidden" src="img/image-product-3.jpeg" alt="">
+                <img id="mainImgFixed4" class="main-img-fixed img-hidden" src="img/image-product-4.jpeg" alt="">
+                <div id="iconLeft" class="box-icons box-icons-left">
+                    <i class="icon-style fa-solid fa-chevron-left"></i>
+                </div>
+                <div id="iconRight" class="box-icons box-icons-right">
+                    <i class="icon-style fa-solid fa-chevron-right"></i>
+                </div>
+                <div id="botonCerrar" class="box-boton-cerrar">
+                    <span class="boton-cerrar">X</span>
+                </div>
+            </div>
+        </div>
+        <div class="box-main-content">
+            <div class="main-content">
+                <div class="box-left">
+                    <div class="box-img">
+                        <img id="mainImg" class="main-img" src="img/image-product-1.jpeg" alt="">
+                    </div>
+                    <div class="box-thumbnail">
+                        <div class="box-thumb">
+                            <img id="thumb1" class="thumb thumb-1" src="img/image-product-1.jpeg" alt="">
+                        </div>
+                        <div class="box-thumb">
+                            <img id="thumb2" class="thumb thumb-2" src="img/image-product-2.jpeg" alt="">
+                        </div>
+                        <div class="box-thumb">
+                            <img id="thumb3" class="thumb thumb-3" src="img/image-product-3.jpeg" alt="">
+                        </div>
+                        <div class="box-thumb">
+                            <img id="thumb4" class="thumb thumb-4" src="img/image-product-4.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="box-info">
+                    <div class="info-product">
+                        <h3 class="title-info-1">SNEAKERS COMPANY</h3>
+                        <h2 class="title-info-2">Fall Limeted<br>Edicion sneakers</h2>
+                        <p class="text-product">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque aspernatur magnam, dolores ut, quidem provident quos labore fugit dolorum debitis dolore distinctio eligendi pariatur porro saepe perferendis placeat necessitatibus quasi?</p>
+                        <div class="box-precio">
+                            <div id="precioUnitario" class="precio">
+                                0
+                            </div>
+                            <div class="descuento">
+                            <label class="lbl-descuento">50%</label>
+                            </div>
+                            
+                            </div>
+                            <div class="box-precio-sin-desc">
+                                360.000
+                        </div>
+                        <div class="box-minus-plus">
+                            <div id="boxMinus" class="box-minus">
+                            <i class="fa-solid fa-minus"></i>
+                        </div>
+                            <div id="boxCant" class="box-cant">
+                                0
+                            </div>
+                            <div  id="boxPlus" class="box-plus">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <div id="valorTotal" class="valor-total">
+                            0
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/sneakers.js"></script>
+</body>
+
+</html>
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato, sans-serif;
+}
+body {
+    display: grid;
+    grid-template: "empty-left content emtpy-right" /
+                    1fr        1100px   1fr;
+}
+.content {
+    grid-area: content;
+    /* background-color: gainsboro; */
+}
+header {
+    display: grid;
+    grid-template: "main-title main-menu carrito-foto" /
+                    150px      1fr       90px;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.main-title {
+    font-family: 'kanit', sans-serif;
+    font-weight: 800;
+    font-size: .9em;
+    color: rgb(48,48,48);
+}
+
+.box-main-content{
+    display: grid;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+.main-content {
+    height: 600px;
+    display: grid;
+    grid-template:  
+                    "empty-left box-left empty-center box-info empty-right" 400px /
+                    40px      500px      120px        1fr      40px; 
+    z-index: 10;                
+}
+.main-menu {
+    display: flex;
+    flex-direction: row;
+    color: rgb(96,96,96);
+    list-style: none;
+    padding-left: 40px;
+}
+.main-menu li {
+    margin: 0 25px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+.main-menu li:hover{
+    border-bottom: 2px solid rgb(255, 125, 26);
+    cursor: pointer;
+}
+.carrito-foto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    cursor: pointer;
+}
+.icon-carrito {
+    font-size: 1.6em;
+    padding-right: 20px;
+}
+.foto {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: 0 -2px 5px rgb(96,96,96);
+}
+.box-left {
+    grid-area: box-left;
+    grid-template: "box-img"
+                   "box-thumbnail" /
+                   1fr;
+}
+.box-img {
+    grid-area: box-img;
+}
+.main-img {
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.box-img-fixed {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: #00000097;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.box-img-fixed-hidden {
+    display: none;
+}
+.box-img-selected {
+    width: 500px;
+    height: 500px;
+}
+.box-boton-cerrar {
+    position: relative;
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+    font-family: sans-serif;
+    top: -660px;
+    left: 460px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(166, 166, 166);
+    border-radius: 25px;
+    
+}
+.main-img-fixed {
+    width: 500px;
+    border-radius: 20px;
+}
+.box-icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-icons:hover {
+    cursor: pointer;
+}
+.box-icons-left {
+    position: relative;
+    top: -275px;
+    left: -25px;
+}
+.box-icons-right {
+    position: relative;
+    top: -325px;
+    left: 475px;
+}
+.icon-style {
+    font-size: 1.2em;
+}
+.img-hidden {
+    display: none;
+}
+.box-thumbnail {
+    margin-top: 30px;
+    grid-area: box-thumbnail;
+    display: flex;
+    justify-content: space-between;
+}
+.thumb-1 {
+    grid-area: thumb-1;
+}
+.thumb-2 {
+    grid-area: thumb-2;
+}
+.thumb-3 {
+    grid-area: thumb-3;
+}
+.thumb-4 {
+    grid-area: thumb-4;
+}
+.thumb {
+    width: 103px;
+    border-radius: 10px;
+    /* padding: 15px; */
+    cursor: pointer;
+    z-index: 10;
+    
+}
+.thumb:hover {
+    opacity: 0.7;
+}
+.box-thumb {
+    margin: 15px;
+}
+.box-thumb:hover{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 20;
+    height: 103px;
+    border-radius: 10px;
+}
+.box-info {
+    grid-area: box-info;
+    display: flex;
+    align-items: center;
+}
+.title-info-1 {
+    color: orange;
+    font-size: .8em;
+}
+.tile-info-2 {
+    font-size: 3em;
+}
+.text-product {
+    margin-top: 40px;
+    color: gray;
+    line-height: 1.6em;
+    font-weight: 500;
+}
+
+.box-precio {
+    display: flex;
+    flex-direction: row;
+}
+
+.precio {
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 2.1em;
+}
+
+.descuento {
+display: flex;
+align-items: flex-end;
+font-weight: 600;
+}
+
+.lbl-descuento {
+    background-color: rgb(239, 218, 181);
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-bottom: 8px;
+    color: orange;
+}
+
+.box-precio-sin-desc {
+    color: rgba(140, 140, 140, 0.8);
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 1.1em;
+    text-decoration: line-through;
+}
+
+.box-minus-plus{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    background-color: rgb(247, 248, 253);
+
+}
+
+.box-minus, .box-cant, .box-plus{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+ .box-minus, .box-plus {
+    color: orange;
+    cursor: pointer;
+    border-radius: 10px;
+ }
+
+ .box-minus:hover, .box-plus:hover{
+    background-color: rgb(224, 219, 219);
+ }
+
+ .valor-total{
+    font-size: 3%;
+ }
+/* Fonts */
+/* kanit-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/kanit-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* kanit-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/kanit-v15-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* kanit-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/kanit-v15-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* kanit-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/kanit-v15-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* kanit-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/kanit-v15-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* lato-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/lato-v24-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* lato-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lato-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* lato-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/lato-v24-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* lato-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/lato-v24-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+
+
+let mainImg = document.getElementById("mainImg");
+let boxImgFixed = document.getElementById("boxImgFixed");
+let botonCerrar = document.getElementById("botonCerrar")
+let iconLeft = document.getElementById("iconLeft");
+let iconRight = document.getElementById("iconRight");
+let mainImgFixed1 = document.getElementById("mainImgFixed1");
+let mainImgFixed2 = document.getElementById("mainImgFixed2");
+let mainImgFixed3 = document.getElementById("mainImgFixed3");
+let mainImgFixed4 = document.getElementById("mainImgFixed4");
+let thumb1 = document.getElementById("thumb1");
+let thumb2 = document.getElementById("thumb2");
+let thumb3 = document.getElementById("thumb3");
+let thumb4 = document.getElementById("thumb4");
+let boxMinus = document.getElementById("boxMinus");
+let boxCant = document.getElementById("boxCant");
+let boxPlus = document.getElementById("boxPlus");
+let precioUnitario = document.getElementById("precioUnitario");
+let valorUnitario = 100000;
+let valorTotal = document.getElementById("valorTotal");
+
+
+mainImg.addEventListener("click", function() {
+    boxImgFixed.classList.remove("box-img-fixed-hidden");
+    boxImgFixed.classList.add("box-img-fixed");
+})
+
+iconRight.addEventListener("click", function(){
+    if (!mainImgFixed1.classList.contains("img-hidden")) {
+        mainImgFixed1.classList.add("img-hidden");
+        mainImgFixed2.classList.remove("img-hidden");
+        mainImg.setAttribute("src","img/image-product-2.jpeg");
+    }
+    else if(!mainImgFixed2.classList.contains("img-hidden")) {
+        mainImgFixed2.classList.add("img-hidden");
+        mainImgFixed3.classList.remove("img-hidden");
+        mainImg.setAttribute("src","img/image-product-3.jpeg");
+    }
+    else if(!mainImgFixed3.classList.contains("img-hidden")) {
+        mainImgFixed3.classList.add("img-hidden");
+        mainImgFixed4.classList.remove("img-hidden");
+        mainImg.setAttribute("src","img/image-product-4.jpeg");
+    }
+    else if(!mainImgFixed4.classList.contains("img-hidden")) {
+        mainImgFixed4.classList.add("img-hidden");
+        mainImgFixed1.classList.remove("img-hidden");
+        mainImg.setAttribute("src","img/image-product-1.jpeg");
+    }
+})
+
+iconLeft.addEventListener("click", function(){
+    if (!mainImgFixed4.classList.contains("img-hidden")) {
+        mainImgFixed4.classList.add("img-hidden");
+        mainImgFixed3.classList.remove("img-hidden");
+        mainImg.setAttribute("src","img/image-product-3.jpeg");
+    }
+    else if(!mainImgFixed3.classList.contains("img-hidden")) {
+        mainImgFixed3.classList.add("img-hidden");
+        mainImgFixed2.classList.remove("img-hidden");
+        mainImg.setAttribute("src","img/image-product-2.jpeg");
+    }
+    else if(!mainImgFixed2.classList.contains("img-hidden")) {
+        mainImgFixed2.classList.add("img-hidden");
+        mainImgFixed1.classList.remove("img-hidden");
+        mainImg.setAttribute("src","img/image-product-1.jpeg");
+    }
+    else if(!mainImgFixed1.classList.contains("img-hidden")) {
+        mainImgFixed1.classList.add("img-hidden");
+        mainImgFixed4.classList.remove("img-hidden");
+        mainImg.setAttribute("src","img/image-product-4.jpeg");
+    }
+});
+
+botonCerrar.addEventListener("click", function(){
+    boxImgFixed.classList.add("box-img-fixed-hidden");
+    boxImgFixed.classList.remove("box-img-fixed");
+
+})
+
+thumb1.addEventListener("click", function(){
+    mainImg.setAttribute("src","img/image-product-1.jpeg")
+    mainImgFixed1.classList.remove("img-hidden")
+    mainImgFixed2.classList.add("img-hidden")
+    mainImgFixed3.classList.add("img-hidden")
+    mainImgFixed4.classList.add("img-hidden")
+});
+thumb2.addEventListener("click", function(){
+    mainImg.setAttribute("src","img/image-product-2.jpeg")
+    mainImgFixed1.classList.add("img-hidden")
+    mainImgFixed2.classList.remove("img-hidden")
+    mainImgFixed3.classList.add("img-hidden")
+    mainImgFixed4.classList.add("img-hidden")
+});
+thumb3.addEventListener("click", function(){
+    mainImg.setAttribute("src","img/image-product-3.jpeg")
+    mainImgFixed1.classList.add("img-hidden")
+    mainImgFixed2.classList.add("img-hidden")
+    mainImgFixed3.classList.remove("img-hidden")
+    mainImgFixed4.classList.add("img-hidden")
+});
+thumb4.addEventListener("click", function(){
+    mainImg.setAttribute("src","img/image-product-4.jpeg")
+    mainImgFixed1.classList.add("img-hidden")
+    mainImgFixed2.classList.add("img-hidden")
+    mainImgFixed3.classList.add("img-hidden")
+    mainImgFixed4.classList.remove("img-hidden")
+});
+
+let valorUnitarioAux = Intl.NumberFormat("DE-de").format(valorUnitario)
+document.getElementById("precioUnitario").innerHTML = "$" + valorUnitarioAux
+
+boxPlus.addEventListener("click", function(){
+    let cantidad = boxCant.innerHTML;
+    if (cantidad < 10) {
+        cantidad++;
+        document.getElementById("boxCant").innerHTML = cantidad;
+        let valorTotalInt = cantidad * valorUnitario;
+        let valorTotalAux = Intl.NumberFormat("DE-de").format(valorTotalInt)
+        document.getElementById("valorTotal").innerHTML = "$" + valorTotalAux
+    
+  }
+});
+
+boxMinus.addEventListener("click", function(){
+    let cantidad = boxCant.innerHTML;
+    if (cantidad >0) {
+        cantidad--;
+    document.getElementById("boxCant").innerHTML = cantidad;
+    let valorTotalInt = cantidad * valorUnitario;
+    let valorTotalAux = Intl.NumberFormat("DE-de").format(valorTotalInt)
+    document.getElementById("valorTotal").innerHTML = "$" + valorTotalAux
+  }
+});
